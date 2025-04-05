@@ -17,10 +17,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-}
-
 li {
   list-style: none;
 }
