@@ -1,7 +1,51 @@
 .hero-wrapper {
   width: 100%;
+  max-width: 1980px;
   height: 100vh;
+  background-image: url("/public/Hero\ section.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.hero-wrapper .container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  width: 50%;
+  margin-inline: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-headline {
+  font-size: 40px;
+  width: 110%;
+  font-weight: 900;
+  text-align: center;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: var(--secondary);
+  padding-block: 1rem;
+}
+
+.hero-para {
+  font-size: 1.2rem;
+  width: 150%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+  color: var(--secondary);
 }

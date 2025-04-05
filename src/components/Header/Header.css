@@ -11,25 +11,32 @@
   width: 90%;
   margin: 0 auto;
   min-height: 80px;
-  color: var(--secondary);
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--secondary);
 }
 
 .he-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  row-gap: 2rem;
-  gap: 2rem;
+  flex-basis: 50%;
+  transition: opacity 300ms ease;
+  gap: 1rem;
 }
 
-.he-menu > *:hover {
-  cursor: pointer;
+.he-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* list-style: none;
+  gap: 2rem; */
 }
+/* .he-menu > *:hover {
+  cursor: pointer;
+} */
 
 .button {
   padding: 0.5rem 1rem;

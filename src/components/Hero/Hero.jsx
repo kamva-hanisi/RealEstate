@@ -1,10 +1,10 @@
 import React from "react";
+import "./Hero.css";
 
 function Hero() {
   return (
     <section className="hero-wrapper" id="hero-wrapper">
-      <img src="./public/Hero section.png" alt="hero" />
-      <div className="hero-container">
+      <div className="container">
         <div className="hero-info">
           <h1 className="hero-headline">Find Your Dream Home with Ease.</h1>
           <p className="hero-para">

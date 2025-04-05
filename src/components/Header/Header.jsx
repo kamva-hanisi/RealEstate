@@ -6,18 +6,26 @@ function Header() {
     <section className="he-wrapper">
       <div className="he-container">
         <a href="#">
-          <img src="./public/logo.png" alt="logo" width={100} />
+          <img src="./public/change.png" alt="logo" width={150} />
         </a>
 
-        <div className="he-menu">
-          <a href="#">About us</a>
-          <a href="#">Properties</a>
-          <a href="#">Service</a>
-          <a href="#">Contact</a>
+        <ul className="he-menu">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/Properties">Properties</a>
+          </li>
+          <li>
+            <a href="/Service">Service</a>
+          </li>
+          <li>
+            <a href="/Contact">Contact</a>
+          </li>
           <button className="button">
             <a href="#">Long in</a>
           </button>
-        </div>
+        </ul>
       </div>
     </section>
   );

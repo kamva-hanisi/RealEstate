@@ -16,6 +16,14 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -108,5 +116,59 @@ a {
   }
   .orangeText {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .he-wrapper {
+    min-height: 80px;
+    /* box-shadow: 2px 2px 2px rgba(80, 80, 80, 0.15); */
+    z-index: 9999;
+  }
+
+  .he-wrapper .container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .he-menu {
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-end;
+    /* top: -50vh; */
+    gap: 13px;
+    right: 0;
+    margin-right: 10%;
+    /* padding-right: 50%; */
+    transition: opacity 200ms ease-in-out;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* width: 80%; */
+    opacity: 0;
+    justify-content: start;
+  }
+
+  .he-menu :last-child {
+    padding-bottom: 1rem;
+  }
+
+  .he-menu.active {
+    opacity: 1;
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 1rem; */
+    padding-top: 1rem;
+    z-index: 1;
   }
 }
