@@ -1,29 +1,30 @@
 import React from "react";
 import "./Header.css";
+import { NavLink } from "react-router";
 
 function Header() {
   return (
     <section className="he-wrapper">
       <div className="he-container">
-        <a href="#">
+        <NavLink to="/">
           <img src="./public/change.png" alt="logo" width={150} />
-        </a>
+        </NavLink>
 
         <ul className="he-menu">
           <li>
-            <a href="/about">About</a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <a href="/Properties">Properties</a>
+            <NavLink to="/properties">Properties</NavLink>
           </li>
           <li>
-            <a href="/Service">Service</a>
+            <NavLink to="/service">Service</NavLink>
           </li>
           <li>
-            <a href="/Contact">Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <button className="button">
-            <a href="#">Long in</a>
+            <NavLink to="#">Log in</NavLink>
           </button>
         </ul>
       </div>
