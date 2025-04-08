@@ -5,6 +5,7 @@
 
 .property-info {
   width: 80%;
+  padding: 60px 0;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
