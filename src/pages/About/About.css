@@ -1,0 +1,115 @@
+.about {
+  width: 100%;
+  height: 424.9px;
+  background-image: url(../public/about/about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about .container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.about-info {
+  width: 50%;
+  height: 100%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  line-height: 150%;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 1.4rem;
+  /* padding-block: 1rem; */
+  /* margin-bottom: 1rem; */
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  /* padding-top: 1rem; */
+  /* padding-block: 1rem; */
+}
+
+/* Services Section */
+
+.img-section {
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/about/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-head {
+  justify-content: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: #fff; */
+}
+
+.test p {
+  max-width: 600px;
+}
+
+.intro-img {
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text {
+  max-width: 55%;
+}
+
+.head {
+  margin-top: 0;
+}
+
+.section {
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.head {
+  font-size: 1.5rem;
+  /* font-weight: 900; */
+  text-transform: capitalize;
+  margin: 20px 0;
+}
