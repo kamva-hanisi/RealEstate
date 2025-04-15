@@ -1,1 +1,60 @@
+.card {
+  background: rgb(228, 225, 225);
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
 
+.card-image {
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 5%;
+  font-size: 2rem;
+  color: greenyellow;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+
+.card-image:hover .close-btn {
+  opacity: 1;
+}
+
+.card-local {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15rem;
+}
+
+.card-local:hover {
+  background: rgb(0 0 0 / 0.5);
+  border-radius: 0.8rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.card-info {
+  padding: 1rem 0.5rem;
+
+  h3 {
+    text-transform: capitalize;
+    color: hsl(0, 1%, 24%);
+  }
+  h4 {
+    text-transform: capitalize;
+    span {
+      color: hsl(0, 1%, 24%);
+      margin: 0.5rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}

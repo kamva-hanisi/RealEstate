@@ -5,13 +5,14 @@ const Card = () => {
   return (
     <div className="card">
       <div className="card-image">
-        <img src="./public/house1.png" alt="logo" width={150} />
-      </div>
-      <div className="card-local">
-        <span>
-          <i className="fa-solid fa-location-dot"></i>
+        <img src="./public/house1.png" alt="logo" />
+        <span className="close-btn">
+          <i className="fa-solid fa-square-xmark"></i>
         </span>
       </div>
+      <span className="card-local">
+        <i className="fa-solid fa-location-dot"></i>
+      </span>
       <div className="card-info">
         <h3>Eastern Cape, King William's Town</h3>
         <h4>
