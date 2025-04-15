@@ -1,9 +1,18 @@
 import React from "react";
 import "./About.css";
+import { NavLink } from "react-router";
 
 const About = () => {
   return (
-    <div>
+    <div className="bodie">
+      <section className="navbar">
+        <div className="logo-container">
+          <NavLink to="/">
+            <img src="./public/change.png" alt="logo" width={150} />
+          </NavLink>
+        </div>
+      </section>
+
       <section className="about" id="about">
         <div className="container">
           <div className="about-info">
