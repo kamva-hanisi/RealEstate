@@ -113,3 +113,71 @@
   text-transform: capitalize;
   margin: 20px 0;
 }
+
+/* Core Values */
+.values {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  text-align: center;
+}
+
+/* Team Section */
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.team-member {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.head {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.hex-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.hex {
+  margin-left: 50px;
+  width: 60px;
+  height: 62px;
+  background-color: #0073e6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.info {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
