@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/about/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.su-container {
+  width: 40%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(8, 8, 8, 0.865);
+}
+.su-container h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: darkblue;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0.7);
+  /* margin-bottom: 36px; */
+}
+.su-container p {
+  /* display: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  margin-top: 30px;
+  /* margin-bottom: 40px; */
+}
+
+.su-form .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.su-form .input-group label {
+  margin-top: 10px;
+}
+
+.su-form .input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.su-form .input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.su-form .input-group input.error {
+  border-color: red;
+}
+.su-form .input-group input.error:focus {
+  border-color: red;
+  outline: none;
+}
+.su-form .input-group .error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+/* .su-form .input-group .error-message.hidden {
+  display: none;
+}
+.su-form .input-group .error-message.visible {
+  display: block;
+}
+.su-form .input-group .error-message.visible::before {
+  content: "⚠️ ";
+  margin-right: 5px;
+}
+.su-form .input-group .error-message.visible::after {
+  content: " ❗";
+  margin-left: 5px;
+} */
+
+.checkbox {
+  margin-top: 10px;
+}
+
+.input-group button {
+  margin-top: 10px;
+  border-radius: 10px !important;
+}
+
+.input-group a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+.input-group a:hover {
+  text-decoration: underline;
+}
+.input-group a:visited {
+  color: #007bff;
+}
+
+.login {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.login i {
+  margin-right: 10px;
+}

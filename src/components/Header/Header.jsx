@@ -24,7 +24,7 @@ function Header() {
             <NavLink to="/contact">Contact</NavLink>
           </li>
           <button className="button">
-            <NavLink to="#">Log in</NavLink>
+            <NavLink to="/signup">Sign Up</NavLink>
           </button>
         </ul>
       </div>
