@@ -1,11 +1,11 @@
 import React from "react";
-import "./LogIn.css";
+import "./SignIn.css";
 import { NavLink } from "react-router-dom";
 
-const LogIn = () => {
+const SignIn = () => {
   return (
     <div className="su-container">
-      <h1>Log In</h1>
+      <h1>Sign In</h1>
 
       <div>
         <form className="su-form">
@@ -24,16 +24,24 @@ const LogIn = () => {
               autoComplete="off"
               placeholder="Type your Password"
             />
-
-            <p>
-              Forgot your password?{" "}
+            <div className="checkbox-group">
+              <input type="checkbox" id="remember" />
+              <label htmlFor="remember">Remember me</label>
+            </div>
+            <div className="terms">
               <NavLink to="/forgot-password" className="btn btn-link">
-                Reset Password
+                Forgot password?
               </NavLink>
-            </p>
+            </div>
+
             <button type="submit" className="btn btn-outline-primary">
               Log In
             </button>
+          </div>
+          <div className="signup">
+            <p>
+              Don't have an account?<a href="/signup"> Sign Up</a>
+            </p>
           </div>
         </form>
       </div>
@@ -41,4 +49,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default SignIn;

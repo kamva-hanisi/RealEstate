@@ -1,0 +1,27 @@
+body {
+  /* width: 100%; */
+  /* height: 100%; */
+  background-image: url(../public/about/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup {
+  text-align: center;
+}
+.signup a {
+  text-decoration: none;
+  color: #007bff;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+
+/* .checkbox {
+  margin-top: 10px;
+} */
+
+/* .terms {
+  padding-left: 51%;
+} */

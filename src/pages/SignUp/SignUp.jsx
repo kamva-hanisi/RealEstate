@@ -12,7 +12,7 @@ const SignUp = () => {
         <div>
           <form className="su-form">
             <div className="input-group">
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name">Full name:</label>
               <input
                 type="text"
                 id="name"
@@ -40,26 +40,21 @@ const SignUp = () => {
                 autoComplete="off"
                 placeholder="Confirm your Password"
               />
-              <checkbox className="checkbox">
-                <input type="checkbox" id="terms" name="terms" value="yes" />
-                Remember me
-              </checkbox>
-              <p>
+              <div className="checkbox-group">
+                <input type="checkbox" id="terms" />
+                <label htmlFor="terms">
+                  I agree to the terms of Service and Privacy Policy
+                </label>
+              </div>
+              {/* <p>
                 By signing up, you agree to our
-                <a href="#">Terms of Service</a>
-              </p>
+                <a href="#">Terms of Service and Privecy Policy</a>
+              </p> */}
               <button type="submit" className="btn btn-success">
                 Sign Up
               </button>
             </div>
           </form>
-          <div className="login">
-            <p>Already have an account ?</p>
-            <NavLink to="/login" className="btn btn-primary">
-              <i className="fa-solid fa-arrow-right-to-bracket"></i>
-              Log In
-            </NavLink>
-          </div>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
 import Property from "../../components/Property/Property";
 import Card from "../../components/cards/Card";
+
 // import { cardData } from "../../components/cards/cardData";
 
 const Home = () => {
@@ -12,8 +13,12 @@ const Home = () => {
       <Header />
       <Hero />
       <Property />
-      {/* <Card /> */}
-      <div className="home-cards">
+      <div className="home-card">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
       </div>
     </div>

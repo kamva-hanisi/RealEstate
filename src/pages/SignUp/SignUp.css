@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
 }
 .su-container {
+  flex-wrap: wrap;
   width: 40%;
   margin: 50px auto;
   padding: 40px;
@@ -82,10 +83,6 @@
   margin-left: 5px;
 } */
 
-.checkbox {
-  margin-top: 10px;
-}
-
 .input-group button {
   margin-top: 10px;
   border-radius: 10px !important;
@@ -106,11 +103,11 @@
   color: #007bff;
 }
 
-.login {
-  text-align: center;
-  margin-top: 5px;
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
-
-.login i {
+.checkbox-group input[type="checkbox"] {
   margin-right: 10px;
 }
