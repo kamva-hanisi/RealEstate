@@ -24,7 +24,7 @@ const About = () => {
               perfect properties.
             </p>
 
-            <a href="#" className="button">
+            <a href="#" className="btn">
               Learn More
             </a>
           </div>

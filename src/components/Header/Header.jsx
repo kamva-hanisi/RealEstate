@@ -23,9 +23,9 @@ function Header() {
           <li>
             <NavLink to="/contact">Contact</NavLink>
           </li>
-          <button className="button">
+          <NavLink className="sign-btn">
             <NavLink to="/signin">Sign in</NavLink>
-          </button>
+          </NavLink>
         </ul>
       </div>
     </section>

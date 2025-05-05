@@ -3,8 +3,8 @@
   max-width: 1980px;
   position: absolute;
   inset: 0 0 100% 0;
-  /* background: var(--black);
-  color: rgb(255, 255, 255); */
+  /* background: var(--black); */
+  color: rgb(255, 255, 255);
 }
 
 .he-container {
@@ -15,25 +15,59 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--secondary);
 }
 
 .he-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 50%;
+  flex-basis: 47%;
   transition: opacity 300ms ease;
   gap: 1rem;
 }
 
-.he-menu ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* list-style: none;
-  gap: 2rem; */
+.he-menu li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondary);
+  /* color: var(--white); */
+  transition: all 300ms ease-in;
 }
-/* .he-menu > *:hover {
+.he-menu li:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--blue-gradient);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.he-menu li:hover {
   cursor: pointer;
-} */
+  transform: scale(1.05);
+  color: goldenrod;
+}
+
+.sign-btn {
+  padding: 0.2rem 0.8rem;
+  border: none;
+  border-radius: 15px;
+  background: var(--blue-gradient);
+
+  font-weight: 500;
+  transition: all 300ms ease-in;
+}
+
+.sign-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: white;
+}
+.sign-btn:active {
+  transform: scale(0.95);
+}
+.sign-btn:focus {
+  outline: none;
+}

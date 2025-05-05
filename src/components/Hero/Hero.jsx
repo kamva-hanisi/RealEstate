@@ -12,7 +12,7 @@ function Hero() {
               Discover premium properties in the best locations, tailored to
               your lifestyle and budget. Buy, sell, or rent with confidence.
             </p>
-            <a href="#" className="button">
+            <a href="#" className="btn">
               Explore Now
             </a>
           </div>
@@ -54,7 +54,7 @@ function Hero() {
               className="input"
             />
           </div>
-          <a href="#" className="button">
+          <a href="#" className="btn">
             Search Now
           </a>
         </div>
